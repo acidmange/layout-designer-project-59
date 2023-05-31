@@ -10,7 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "htmlhint": "^1.1.4",
+    "sass": "^1.62.1",
     "stylelint": "^15.6.2",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^33.0.0",
