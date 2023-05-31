@@ -1,0 +1,4 @@
+# Makefile
+
+install:
+	npm ci
