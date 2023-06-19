@@ -1,7 +1,6 @@
 .git
 .github
-build/
+build
 node_modules
 .surgeignore
 Makefile
-node_modules
