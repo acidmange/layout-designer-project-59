@@ -1,6 +1,6 @@
 /.git/
 /.github/
-/build/
-/node_modules/
+/.build/
+/.node_modules/
 /.surgeignore
 ./Makefile
