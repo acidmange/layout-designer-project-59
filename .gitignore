@@ -1,6 +1,7 @@
-/.git/
-/.github/
-/.build/
-/.node_modules/
-/.surgeignore
-./Makefile
+.git
+.github
+build/
+node_modules
+.surgeignore
+Makefile
+node_modules
