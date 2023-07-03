@@ -1,7 +1,17 @@
 // Boootstrap related imports
 
+@import "./variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Components
 
-@import './components/header';
+@import "./components/header";
+@import "./components/contacts";
+
+// Utilities
+
+@import "./utilities/base";
+
+// Mixins
+
+@import "./mixins/contacts_mixins";
