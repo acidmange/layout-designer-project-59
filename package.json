@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
