@@ -1,0 +1,21 @@
+// Contacts component styles
+
+.contacts {
+  &__input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+.person {
+  &__info {
+    margin-left: 74px;
+  }
+
+  &__avatar {
+    transform: translateY(-2px);
+    border-radius: 50px;
+  }
+}
