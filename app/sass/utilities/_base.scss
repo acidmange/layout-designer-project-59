@@ -1,0 +1,27 @@
+// Base project utilities
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.scroll-off {
+  overflow-y: hidden;
+}
+
+.scroll-on {
+  overflow-y: scroll;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+}
