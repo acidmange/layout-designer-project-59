@@ -1,0 +1,15 @@
+//- include sections/contacts.pug
+
+include ../data/data_contacts.pug
+include ../mixins/mixins_contacts-list.pug
+
+.contacts
+  h2.contacts__h2.fw-bold.mb-4 Контакты
+
+  label.contacts__search.w-100
+    span.sr-only Contact name
+    input(type='search' id='searchContacts' name='q' placeholder='Поиск по контактам').contacts__input.ps-4.py-4.w-100
+
+  .contacts__container.d-flex.flex-column.gap-5.my-5
+    +make_contacts(contacts)
+  
