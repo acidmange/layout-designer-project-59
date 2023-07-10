@@ -3,12 +3,12 @@
 mixin make_contacts(contacts_arr)
   each people, letter in contacts_arr
     .contacts__group.d-flex.flex-column.gap-3
-      span.contacts__letter.text-secondary= letter
+      span.contacts__letter.text-muted= letter
 
       each person in people
-        div.d-flex.gap-4.person.py-4.ps-3.shadow-sm.position-relative
+        a(href='#').d-flex.gap-4.person.py-4.ps-3.shadow-sm.position-relative
           - const path = "../src";
           img(src= path + person.avatar width='50' height='50' alt='avatar').person__avatar.position-absolute
           div.person__info.w-100.d-flex.flex-column.justify-content-center
-            span.fw-bold=person.name
-            span.small.text-muted=person.status
+            span.fw-bold.person__name=person.name
+            span.small.person__status=person.status
