@@ -1,7 +1,19 @@
 // Base project utilities
 
+.bg-test {
+  background: #d9faff;
+}
+
+.bg-test-2 {
+  background: #d9ffe3;
+}
+
 .h-100 {
   height: 100%;
+}
+
+.h-100vh {
+  height: 100vh;
 }
 
 .w-100 {
@@ -24,4 +36,8 @@
   overflow: hidden;
   white-space: nowrap;
   border: 0;
+}
+
+.inverted {
+  filter: invert(1);
 }
