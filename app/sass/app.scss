@@ -5,8 +5,11 @@
 
 // Components
 
+@import "./components/header";
 @import "./components/left-side";
+@import "./components/right-side";
 @import "./components/contacts";
+@import "./components/media-queries";
 
 // Utilities
 
@@ -15,3 +18,4 @@
 // Mixins
 
 @import "./mixins/contacts_mixins";
+@import "./mixins/base_mixins";
