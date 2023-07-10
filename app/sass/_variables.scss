@@ -3,6 +3,10 @@
 // Colors
 
 $gray: #EFEFEF;
+$primary: #4545A5;
+$dark-gray: #212529;
+$secondary: #6C757D;
+$light: #FBFBFB;
 
 $theme-colors: (
   "gray": #EFEFEF,
@@ -13,10 +17,19 @@ $theme-colors: (
   "warning": #FFC107,
   "danger": #DC3545,
   "light": #FBFBFB,
-  "dark": #343A40
+  "dark": #343A40,
+  "dark-gray": #212529,
+  "white": #FFFFFF
 );
 
 // Grid breakpoints
+
+ $grid-xs: 0;
+ $grid-sm: 576px;
+ $grid-md: 768px;
+ $grid-lg: 992px;
+ $grid-xl: 1200px;
+ $grid-xxl: 1600px;
 
 $grid-breakpoints: (
   xs: 0,
