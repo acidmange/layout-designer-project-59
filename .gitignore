@@ -1,7 +1,7 @@
 .git
 .github
-build
-build/**/*.*
+/build
+/build/**/*.*
 node_modules
 .surgeignore
 Makefile
