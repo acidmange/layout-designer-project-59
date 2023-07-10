@@ -10,6 +10,8 @@
 }
 
 .person {
+  text-decoration: none;
+
   &__info {
     margin-left: 74px;
   }
@@ -17,5 +19,27 @@
   &__avatar {
     transform: translateY(-2px);
     border-radius: 50px;
+  }
+
+  &__name {
+    color: $dark-gray;
+  }
+
+  &__status {
+    color: $secondary;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $primary;
+
+    & .person__name {
+      color: $light;
+    }
+
+    & .person__status {
+      color: $gray;
+    }
   }
 }
