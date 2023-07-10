@@ -5,13 +5,13 @@ html(lang='ru')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     title Index Page 
     link(rel='stylesheet' href='./styles/app.css')
-  body.container.h-100.my-0.scroll-off
-    .row
-      .col-4.p-0
+  body.container-fluid.px-0.scroll-off.px-4.bg-dark-gray
+    .row.mx-0
+      .col-md-4.col.p-0.d-flex.flex-md-column.flex-column-reverse.h-100vh
         header.header.bg-primary
-          p.m-0 Header
-        section.left-side.bg-light.pt-5.px-4.scroll-on
+          include sections/header.pug
+        section.left-side.pt-5.px-4.scroll-on.bg-white
           include sections/contacts.pug
-      .col-8.p-0
-        section.right-side.bg-warning
-          p Right-side
+      .col-md-8.col-0.p-0
+        section.right-side.h-100.d-flex.align-items-center.justify-content-center.bg-white
+          include sections/right-side.pug
