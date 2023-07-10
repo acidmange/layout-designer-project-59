@@ -1,7 +1,9 @@
 @import "../mixins/contacts_mixins";
 
 .left-side {
-  height: calc(100vh - 24px);
-  border-radius: 0 0 0 16px;
+  height: 100%;
+
+  border-right: 1px solid $gray;
+
   @include hide-scrollbar();
 }
