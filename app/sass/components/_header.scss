@@ -1,0 +1,28 @@
+// Header styles
+@import "../mixins/base_mixins";
+
+.header {
+  &__container {
+    @include px(20px);
+    @include py(24px);
+  }
+
+  &__link {
+    @include px(20px);
+    @include py();
+  }
+
+  &__logo {
+    height: 25px;
+    width: 15px;
+  }
+
+  &__icon {
+    height: 25px;
+    width: 25px;
+  }
+
+  &__text {
+    display: none;
+  }
+}

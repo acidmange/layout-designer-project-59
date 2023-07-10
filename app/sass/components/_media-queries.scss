@@ -1,0 +1,35 @@
+// Media Queries
+@import "../mixins/base_mixins";
+
+@media (min-width: $grid-md) {
+  .header {
+    border-top-left-radius: 16px;
+
+    &__text {
+      display: block;
+    }
+
+    &__container {
+      @include px(16px);
+      @include py(16px);
+    }
+
+    &__link {
+      @include px(20px);
+    }
+
+    &__logo {
+      height: 40px;
+      width: 25px;
+    }
+  }
+
+  .left-side {
+    border-bottom-left-radius: 16px;
+  }
+
+  .right-side {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+//- include sections/header.pug
+
+
+.header__container.d-flex.align-items-center.justify-content-between
+  img(src='../src/images/icons/logo.svg').header__logo.inverted
+  nav.nav.header__nav
+    a.nav-link.header__link(href='#').d-flex.gap-2.align-items-center
+      img(src='../src/images/icons/people.svg').header__icon.inverted
+      p.text-light.small.m-0.header__text Контакты
+    a.nav-link.header__link(href='#').d-flex.gap-2.align-items-center
+      img(src='../src/images/icons/chat.svg').header__icon.inverted
+      p.text-light.small.m-0.header__text Сообщения
+    a.nav-link.header__link(href='#').d-flex.gap-2.align-items-center
+      img(src='../src/images/icons/person.svg').header__icon.inverted
+      p.text-light.small.m-0.header__text Профиль

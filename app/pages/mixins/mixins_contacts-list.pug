@@ -8,7 +8,7 @@ mixin make_contacts(contacts_arr)
       each person in people
         a(href='#').d-flex.gap-4.person.py-4.ps-3.shadow-sm.position-relative
           - const path = "../src";
-          img(src= path + person.avatar width='50' height='50' alt='avatar').person__avatar.position-absolute
+          img(src= path + person.avatar alt='avatar').person__avatar.avatar.position-absolute
           div.person__info.w-100.d-flex.flex-column.justify-content-center
             span.fw-bold.person__name=person.name
             span.small.person__status=person.status
