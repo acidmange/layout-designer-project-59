@@ -1,0 +1,12 @@
+{
+  "name": "layout-designer-project-59",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Actions Status](https://github.com/acidmange/layout-designer-project-59/workflows/hexlet-check/badge.svg)](https://github.com/acidmange/layout-designer-project-59/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
