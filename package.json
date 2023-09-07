@@ -1,7 +1,6 @@
 {
   "name": "layout-designer-project-59",
   "version": "1.0.0",
-  "type": "module",
   "description": "[![Actions Status](https://github.com/acidmange/layout-designer-project-59/workflows/hexlet-check/badge.svg)](https://github.com/acidmange/layout-designer-project-59/actions)",
   "main": "index.js",
   "scripts": {
@@ -10,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
@@ -19,6 +19,7 @@
     "htmlhint": "^1.1.4",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.66.1",
     "stylelint": "^15.10.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^34.0.0",
