@@ -10,9 +10,9 @@ const browserSyncJob = () => {
   browserSync.init({
     server: "build/"
   });
-  watch('src/sass/**/*.scss', buildSass);
-  watch('src/pages/**/*.pug', buildPug);
-  watch('src/images/**/*', destImages);
+  watch('app/sass/**/*.scss', buildSass);
+  watch('app/pages/**/*.pug', buildPug);
+  watch('app/images/**/*', destImages);
 };
 
 const buildSass = () => {
@@ -22,7 +22,7 @@ const buildSass = () => {
     .pipe(sass())
     .pipe(dest('build/styles/'))
     .pipe(browserSync.stream());
-}
+};
 
 const buildSVG = () => {
   console.log('Компиляция SVG');
@@ -46,17 +46,17 @@ const buildPug = () => {
       .pipe(pug({ pretty: true }))
       .pipe(dest('build/'))
       .pipe(browserSync.stream());
-}
+};
 
 const destImages = () => {
   return src('app/images/**/*')
     .pipe(dest('build/images'));
-}
+};
 
 const destJs = () => {
   return src('app/bootstrap/dist/js/bootstrap.min.js')
     .pipe(dest('build/js/'));
-}
+};
 
 exports.server = browserSyncJob;
 exports.build = parallel(buildSass, buildPug, buildSVG, destImages, destJs);
