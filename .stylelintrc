@@ -5,11 +5,11 @@ extends:
 plugins:
   - stylelint-scss
   - stylelint-order
+  - stylelint-rational-order-plugin
 
 rules:
   declaration-empty-line-before: null
-  plugin/rational-order:
-    - true
-    - empty-line-between-groups: true
+  plugin/rational-order: true
   at-rule-no-unknown: null
   scss/at-rule-no-unknown: true
+  selector-class-pattern: null
