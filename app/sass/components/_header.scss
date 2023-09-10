@@ -1,0 +1,18 @@
+// Header styles
+@import "../mixins/base_mixins";
+
+.header {
+  padding-right: 40px;
+
+  &__icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  &__logo {
+    width: 25px;
+    height: 40px;
+    margin-right: 28px;
+    vertical-align: middle;
+  }
+}
