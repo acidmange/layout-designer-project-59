@@ -5,6 +5,6 @@ mixin make_avatar(link, src, name, message, time)
     .person-l-padding.w-100.d-flex.flex-column.justify-content-center.text-overflow
       img.avatar.position-absolute(src=src, alt='avatar')
       .d-flex.justify-content-between.align-items-start
-        span.person__name.fw-bold= name
-        span.person__time.small= time
-      span.person__message.small.overflow-ellipsis.text-overflow= message
+        span.person-name.fw-bold= name
+        span.person-time.small= time
+      span.person-message.small.overflow-ellipsis.text-overflow= message

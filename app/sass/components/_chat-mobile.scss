@@ -4,40 +4,40 @@
 .chat-mobile {
   height: 100%;
 
-  &__header {
+  &-header {
     top: 0;
   }
 
-  &__message {
+  &-message {
     &:nth-child(even) {
       align-self: flex-end;
     }
   }
 
-  &__messages {
+  &-messages {
     max-width: 928px;
   }
 
-  &__message-container {
+  &-message-container {
     max-width: 558px;
   }
 
-  &__avatar {
+  &-avatar {
     width: 50px;
     height: 50px;
     border-radius: 50px;
   }
 
-  &__input {
+  &-input {
     @include py(15px);
   }
 
-  &__input-field {
+  &-input-field {
     width: max-content;
     border: none;
   }
 
-  &__input-button {
+  &-input-button {
     flex-shrink: 0;
     width: 42px;
     height: 42px;

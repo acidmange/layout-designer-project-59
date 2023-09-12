@@ -7,13 +7,13 @@
 
   margin-top: 64px;
 
-  &__img {
+  &-img {
     width: 90px;
     height: 90px;
     border-radius: 100px;
   }
 
-  &__message {
+  &-message {
     color: $half-black;
   }
 }

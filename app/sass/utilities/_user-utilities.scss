@@ -1,6 +1,5 @@
 // User custom utilities
 @use 'sass:map';
-
 @import "../variables/variables";
 
 $utilities: map.merge($utilities,

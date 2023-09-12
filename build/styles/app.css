@@ -18580,23 +18580,23 @@ body {
   padding-bottom: 16px;
   margin-top: 64px;
 }
-.profile-person__img {
+.profile-person-img {
   width: 90px;
   height: 90px;
   border-radius: 100px;
 }
-.profile-person__message {
+.profile-person-message {
   color: #808080;
 }
 
 .header {
   padding-right: 40px;
 }
-.header__icon {
+.header-icon {
   width: 25px;
   height: 25px;
 }
-.header__logo {
+.header-logo {
   width: 25px;
   height: 40px;
   margin-right: 28px;
@@ -18606,32 +18606,32 @@ body {
 .chat-mobile {
   height: 100%;
 }
-.chat-mobile__header {
+.chat-mobile-header {
   top: 0;
 }
-.chat-mobile__message:nth-child(even) {
+.chat-mobile-message:nth-child(even) {
   align-self: flex-end;
 }
-.chat-mobile__messages {
+.chat-mobile-messages {
   max-width: 928px;
 }
-.chat-mobile__message-container {
+.chat-mobile-message-container {
   max-width: 558px;
 }
-.chat-mobile__avatar {
+.chat-mobile-avatar {
   width: 50px;
   height: 50px;
   border-radius: 50px;
 }
-.chat-mobile__input {
+.chat-mobile-input {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.chat-mobile__input-field {
+.chat-mobile-input-field {
   width: max-content;
   border: none;
 }
-.chat-mobile__input-button {
+.chat-mobile-input-button {
   flex-shrink: 0;
   width: 42px;
   height: 42px;
@@ -18639,12 +18639,12 @@ body {
   border-radius: 100%;
 }
 
-.right-side__img {
+.right-side-img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
-.right-side__span {
+.right-side-span {
   margin-top: 18px;
 }
 
@@ -18664,11 +18664,11 @@ body {
     padding-bottom: 40px;
     margin-top: 48px;
   }
-  .chat-mobile__input {
+  .chat-mobile-input {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .chat-mobile__input-button {
+  .chat-mobile-input-button {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -18700,16 +18700,16 @@ body {
   display: none;
 }
 
-.person .person__name {
+.person .person-name {
   color: #212529;
 }
-.person .person__status {
+.person .person-status {
   color: #6C757D;
 }
-.person .person__time {
+.person .person-time {
   color: #ADB5BD;
 }
-.person .person__message {
+.person .person-message {
   color: #6C757D;
 }
 .person:hover, .person:active, .person:focus {
