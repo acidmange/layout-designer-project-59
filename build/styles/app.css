@@ -18611,6 +18611,7 @@ body {
 }
 .chat-mobile-messages {
   max-width: 928px;
+  padding-bottom: 120px;
 }
 .chat-mobile-message-container {
   max-width: 558px;
@@ -18634,6 +18635,9 @@ body {
   height: 42px;
   border: none;
   border-radius: 100%;
+}
+.chat-mobile-input-container {
+  bottom: 72px;
 }
 
 .right-side-img {
@@ -18746,6 +18750,12 @@ body {
 }
 @media (min-width: 768px) {
   .h-100vh {
+    height: calc(100vh - 48px);
+  }
+}
+
+@media (min-width: 768px) {
+  .h-100vh-only-desk {
     height: calc(100vh - 48px);
   }
 }

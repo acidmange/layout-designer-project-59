@@ -25,6 +25,12 @@
   height: 100vh;
 }
 
+.h-100vh-only-desk {
+  @media (min-width: $grid-md) {
+    height: calc(100vh - 48px);
+  }
+}
+
 .w-100 {
   width: 100%;
 }

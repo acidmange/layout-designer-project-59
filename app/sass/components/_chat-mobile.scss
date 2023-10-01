@@ -16,6 +16,7 @@
 
   &-messages {
     max-width: 928px;
+    padding-bottom: calc(72px + 48px);
   }
 
   &-message-container {
@@ -43,5 +44,9 @@
     height: 42px;
     border: none;
     border-radius: 100%;
+  }
+
+  &-input-container {
+    bottom: 72px;
   }
 }
