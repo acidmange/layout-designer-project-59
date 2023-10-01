@@ -4,6 +4,14 @@
 @media (min-width: $grid-md) {
   .header {
     border-top-left-radius: 16px;
+
+    &-logo {
+      margin-right: 28px;
+    }
+
+    &-icon {
+      margin-right: 32px;
+    }
   }
 
   .left-side {

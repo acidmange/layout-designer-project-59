@@ -18592,11 +18592,12 @@ body {
 .header-icon {
   width: 25px;
   height: 25px;
+  margin-right: 40px;
 }
 .header-logo {
   width: 25px;
   height: 40px;
-  margin-right: 28px;
+  margin-right: 118px;
   vertical-align: middle;
 }
 
@@ -18652,6 +18653,12 @@ body {
 @media (min-width: 768px) {
   .header {
     border-top-left-radius: 16px;
+  }
+  .header-logo {
+    margin-right: 28px;
+  }
+  .header-icon {
+    margin-right: 32px;
   }
   .left-side {
     border-bottom-left-radius: 16px;
