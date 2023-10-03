@@ -18790,6 +18790,18 @@ body {
   bottom: 72px;
 }
 
+.message-footer {
+  color: rgba(108, 117, 125, 0.6);
+}
+
+.message-body {
+  max-width: 510px;
+}
+
+.person-status {
+  color: #6c757d;
+}
+
 .right-side-img {
   width: 200px;
   height: 200px;
