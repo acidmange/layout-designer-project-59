@@ -2,7 +2,7 @@
 - const contactsClass = (page === 'chat') ? '' : 'active';
 - const chatsClass = (page === 'chat') ? 'active' : '';
 
-nav.nav.header.d-flex.align-items-center.py-3.ps-3.bg-primary.justify-content-start(id='navigation')
+nav.nav.header.d-flex.align-items-center.py-3.ps-3.bg-primary.justify-content-md-start.justify-content-between(id='navigation')
   a.p-0(href='index.html')
     img.header-logo(src='./images/icons/logo.svg', alt='logo')
 
@@ -20,5 +20,5 @@ nav.nav.header.d-flex.align-items-center.py-3.ps-3.bg-primary.justify-content-st
       span.text-light.small.m-0.d-md-block.d-none Сообщения
 
     a.nav-link.p-0.header-link.p-0.d-flex.align-items-center(href='#profile', id='nav-profile-tab', data-bs-toggle='tab', data-bs-target='#profile', type='button', role='tab', aria-controls='nav-profile', aria-selected='false')
-      img.header-icon.inverted.me-md-2.m-0(src='./images/icons/person.svg', alt='icon')
+      img.header-icon.inverted.me-md-2(src='./images/icons/person.svg', alt='icon')
       span.text-light.small.m-0.d-md-block.d-none Профиль
