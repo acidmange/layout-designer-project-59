@@ -18737,6 +18737,14 @@ body {
   color: #EFEFEF;
 }
 
+.chats > .search-panel::placeholder {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+}
+
 .bg-test {
   background: #d9faff;
 }
