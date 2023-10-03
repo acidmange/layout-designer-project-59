@@ -1,7 +1,7 @@
 //- Messages mixin
 
 mixin make_message(body, footer, name=null, path=null)
-  - var classes = name ? 'message p-4 shadow-sm bg-light' : 'message p-4 bg-primary';
+  - var classes = name ? 'message py-4 ps-4 pe-2 shadow-sm bg-light' : 'message py-4 ps-4 pe-2 bg-primary';
   .d-flex.chat-mobile-message
     if path
       img.chat-mobile-avatar.me-3.align-self-end.d-md-block.d-none(src=path, alt='profile icon')
@@ -12,6 +12,6 @@ mixin make_message(body, footer, name=null, path=null)
       .message-body
         - var bodyclr = name ? 'text-secondary' : 'text-light';
         p.m-0(class=bodyclr)= body
-      .message-footer.mt-2.border-top.pt-1
+      .message-footer.mt-2.me-3.border-top
         - var footclr = name ? 'text-secondary' : 'text-gray';
         span.small-extra(class=footclr)= footer
