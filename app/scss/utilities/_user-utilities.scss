@@ -1,8 +1,9 @@
 // User custom utilities
-@use 'sass:map';
+@use "sass:map";
 @import "../variables/variables";
 
-$utilities: map.merge($utilities,
+$utilities: map.merge(
+  $utilities,
     ("border": (responsive: true,
         property: border,
         values: (null: $borders-value,

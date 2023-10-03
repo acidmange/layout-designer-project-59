@@ -2,25 +2,25 @@
 
 // Colors
 
-$gray: #EFEFEF;
-$light-gray: #ADB5BD;
-$primary: #4545A5;
+$gray: #efefef;
+$light-gray: #adb5bd;
+$primary: #4545a5;
 $dark-gray: #212529;
-$secondary: #6C757D;
-$light: #FBFBFB;
+$secondary: #6c757d;
+$light: #fbfbfb;
 $half-black: #808080;
 $theme-colors: (
-  "gray": #EFEFEF,
-  "primary": #4545A5,
-  "secondary": #6C757D,
-  "success": #28A745,
-  "info": #17A2B8,
-  "warning": #FFC107,
-  "danger": #DC3545,
-  "light": #FBFBFB,
-  "dark": #343A40,
+  "gray": #efefef,
+  "primary": #4545a5,
+  "secondary": #6C757d,
+  "success": #28a745,
+  "info": #17a2B8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #fbfbfb,
+  "dark": #343a40,
   "dark-gray": #212529,
-  "white": #FFF
+  "white": #fff
 );
 
 // Grid breakpoints
@@ -44,8 +44,8 @@ $grid-breakpoints: (
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,

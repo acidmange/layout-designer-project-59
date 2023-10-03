@@ -1,6 +1,6 @@
 // Disable nav tabs default styles
 
-.nav-tabs  {
+.nav-tabs {
   border: none;
 
   & .nav-item .nav-link {
@@ -8,7 +8,9 @@
     background: none;
     border: none;
 
-    &:active, &:hover, &:focus {
+    &:active,
+    &:hover,
+    &:focus {
       color: $light;
       background: none;
       border: none;

@@ -42,19 +42,19 @@
   &:focus {
     background-color: $primary;
 
-    & .person__name {
+    & .person-name {
       color: $light;
     }
 
-    & .person__status {
+    & .person-status {
       color: $gray;
     }
 
-    & .person__message {
+    & .person-message {
       color: $light;
     }
 
-    & .person__time {
+    & .person-time {
       color: $gray;
     }
   }
