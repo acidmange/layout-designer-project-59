@@ -1,7 +1,7 @@
 //- Messages mixin
 
 mixin make_message(body, footer, name=null, path=null)
-  - var classes = name ? 'message p-md-4 py-4 ps-4 pe-2 shadow-sm bg-light' : 'message p-md-4 py-4 ps-4 pe-2 bg-primary';
+  - var classes = name ? 'message p-4 shadow-sm bg-light' : 'message p-4 bg-primary';
   - var footerDark = 'border-top border-white border-opacity-50 text-white-50';
   - var borderLight = 'text-muted border-bottom';
   .d-flex.chat-mobile-message
