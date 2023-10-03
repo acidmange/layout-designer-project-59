@@ -12,7 +12,7 @@ mixin make_message(body, footer, name=null, path=null)
           span.fw-bold= name
       .message-body.pb-2(class=borderClr)
         - var bodyclr = name ? 'text-secondary' : 'text-light';
-        p.m-0(class=bodyclr)= body
+        p.mx-0.mb-0.mt-1(class=bodyclr)= body
       .message-footer.me-3
         - var footclr = name ? 'text-secondary' : 'text-gray';
         span.small(class=footclr)= footer
