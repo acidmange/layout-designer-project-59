@@ -18657,6 +18657,9 @@ body {
     margin-right: 28px;
   }
   .header-icon {
+    margin-right: 8px;
+  }
+  .header-link {
     margin-right: 32px;
   }
   .left-side {
