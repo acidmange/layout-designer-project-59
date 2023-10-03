@@ -4,15 +4,15 @@ mixin make_message(body, footer, name=null, path=null)
   - var classes = name ? 'message p-4 shadow-sm bg-light' : 'message p-4 bg-primary';
   - var footerDark = 'border-top border-white border-opacity-50 text-white-50';
   - var borderLight = 'text-muted border-bottom';
+  - var bodyclr = name ? 'text-muted' : 'text-white';
   .d-flex.chat-mobile-message
     if path
       img.chat-mobile-avatar.me-3.align-self-end.d-md-block.d-none(src=path, alt='profile icon')
     .rounded-4.w-fit-content.chat-mobile-message-container.d-flex.flex-column(class=classes)
       if name
-        .message-header
-          span.fw-bold.text-dark= name
-      .message-body(class=name ? borderLight : null)
-        - var bodyclr = name ? 'text-muted' : 'text-white';
-        p.mx-0.mb-0.mb-2(class=bodyclr)= body
-      .message-footer.me-3.pt-1(class=!name ? footerDark : null)
-        span.small= footer
+        p.fw-bold.text-dark.mb-1= name
+        p.mb-0.pb-2.text-muted.border-bottom= body
+        p.mb-0.pt-1.small= footer
+      else
+        p.mb-2.text-white= body
+        p.time.mb-0.pt-1.text-white-50.border-opacity-50.border-white.border-top.small= footer
