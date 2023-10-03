@@ -78,19 +78,18 @@ $utilities: map.merge($utilities,
         class: small-extra,
         values: (null: $fs-small-extra,
         )),
-      "width": (
-        property: width,
+      "width": (property: width,
         responsive: true,
         class: w,
-        values: (
-          25: 25%,
+        values: (25: 25%,
           50: 50%,
           75: 75%,
           100: 100%,
           auto: auto,
           min-content: min-content,
           max-content: max-content,
-          fit-content: fit-content
-        )
-      ),
+          fit-content: fit-content)),
+      "position": (property: position,
+        responsive: true,
+        values: static relative absolute fixed sticky),
     ));
