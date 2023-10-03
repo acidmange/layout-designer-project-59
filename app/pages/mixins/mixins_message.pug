@@ -12,7 +12,7 @@ mixin make_message(body, footer, name=null, path=null)
       if name
         p.fw-bold.text-dark.mb-1= name
         p.mb-0.pb-2.text-muted.border-bottom= body
-        p.mb-0.pt-1.small= footer
+        p.time.mb-0.pt-1.small= footer
       else
         p.mb-2.text-white= body
         p.time.mb-0.pt-1.text-white-50.border-opacity-50.border-white.border-top.small= footer
